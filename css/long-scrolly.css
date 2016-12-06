@@ -14,7 +14,7 @@ html, body {
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
-	background-color: #ccc; 
+	background-color: white; 
 }
 .main-menu ul {
 	/* standard removal of UL styles */
@@ -24,7 +24,8 @@ html, body {
 
 	/* required - get LIs to line-up side-by-side */
 	display: flex;
-	justify-content: center; /* optional - lookup lots of options */
+	justify-content: flex-end; /* optional - lookup lots of options */
+	background-color: white;
 }
 .main-menu a { 
 	/* typical - make links look/act like buttons */
@@ -44,6 +45,3 @@ section {
     padding-bottom: 25px; /* typical - keep content away from the next section */
     text-align: center; /* typical for long scrolly pages */
 }
-
- /* typical - alter the bg for every other section */
-section:nth-child(even) {background-color: #eee; }

@@ -12,24 +12,25 @@
 
     <!-- Navigation -->
     <nav class="main-menu">
-        <ul>
-            <li><a href="#first">First</a></li>
-            <li><a href="#second">Second</a></li>
-            <li><a href="#third">Third</a></li>
-        </ul>
+
+      <div style="display:flex; justify-content: flex-start; border: 1px solid hotpink">Alex Mai</div>
+      <ul>
+          <li><a href="#first">Home</a></li>
+          <li><a href="#second">Accomplishments</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
 
     <!-- Top Section -->
     <section id="first">
         <div class="container">
 
-            <h1>First Section</h1>
+          <div id="introContent">
+            <h1>Alex Mai</h1>
+              assdasdas
 
-            <div class="content">
-
-                
-
-            </div><!-- .content -->
+          </div><!-- .content -->
 
        </div><!-- .container -->
 
@@ -51,21 +52,6 @@
 
     </section>
 
-    <!-- Third Section -->
-    <section id="third">
-        <div class="container">
-
-            <h1>Third Section</h1>
-
-            <div class="content">
-
-                
-
-            </div><!-- .content -->
-
-       </div><!-- .container -->
-
-    </section>
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
