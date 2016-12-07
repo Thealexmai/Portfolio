@@ -5,6 +5,19 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+article, aside {
+	display: table-cell;
+	padding-top: 0px;
+	vertical-align: top;
+}
+
+article {
+	width: 90%;
+}
+
+aside {
+	width: 10%;
+}
 /*	****************************************
 	Layout
 	**************************************** */
@@ -42,7 +55,10 @@ html {
 .content {
 	text-align: left;
 	overflow: auto;
+}
 
+.img-responsive {
+	max-width: 100%;
 }
 
 .column1, .column2, .column3 {
@@ -62,6 +78,24 @@ html {
 	width: auto;
 }
 
-.img-responsive {
-	max-width: 100%;
+.section2-column1, .section2-column2 {
+	display: table-cell;
+	padding-right: 40px;
+	padding-top: 0px;
 }
+
+.section2-column1 {
+	width: 40%;
+}
+
+.section2-column2 {
+	width: 60%;
+	vertical-align: top;
+}
+
+.accomplishment-wrapper {
+	padding-bottom: 30px;
+}
+
+
+
