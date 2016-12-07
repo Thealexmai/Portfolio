@@ -21,6 +21,11 @@ aside {
 /*	****************************************
 	Layout
 	**************************************** */
+#name-logo {
+	display:flex; 
+	float: left;
+}
+
 #first {
 	background: linear-gradient(rgba(23, 22, 23, 0.3), rgba(23, 22, 23, 0.3)), url(../img/bg.jpg) no-repeat top center fixed;
 	color:white;
@@ -86,6 +91,7 @@ aside {
 
 .section2-column1 {
 	width: 40%;
+	text-align: center;
 }
 
 .section2-column2 {
