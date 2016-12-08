@@ -21,6 +21,7 @@ aside {
 /*	****************************************
 	Layout
 	**************************************** */
+
 #name-logo {
 	display:flex; 
 	float: left;
@@ -48,12 +49,44 @@ aside {
 	padding-top: 20px;
 }
 
+
 /*	****************************************
 	Modules (reusable classes)
 	**************************************** */
+
+	/*	****************************************
+	Persistent Navigation
+	**************************************** */
+.main-menu {
+	position: fixed; /* required - magic */
+	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
+	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
+	width: 100%; /* required - makes the menu go all the way across the viewport */
+	background-color: white; 
+}
+.main-menu ul {
+	/* standard removal of UL styles */
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+
+	/* required - get LIs to line-up side-by-side */
+	display: flex;
+	justify-content: flex-end; /* optional - lookup lots of options */
+	background-color: white;
+}
+.main-menu a { 
+	/* typical - make links look/act like buttons */
+	display: block;
+	padding: 15px;
+	color: #666;
+	text-decoration: none;
+}
+.main-menu a:hover { color: #ddd; }
+
 .container {
 	margin: 0 auto;
-	width: 95%;
+	width: 96%;
 	max-width: 960px; 
 }
 
@@ -64,6 +97,7 @@ aside {
 
 .img-responsive {
 	max-width: 100%;
+	height: auto;
 }
 
 .column1, .column2, .column3 {
@@ -103,5 +137,13 @@ aside {
 	padding-bottom: 30px;
 }
 
+
+.jgallery {
+	padding-top: 75px;
+}
+
+.jgallery-container-inner {
+	padding-top: 75px;
+}
 
 
