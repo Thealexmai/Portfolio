@@ -25,33 +25,43 @@
     	<a href="#mapping"><img src="img/mapping.png" alt="Street Mapping Project" class="img-responsive"></a>
     </div>
 
-    <div class="container">
-    	<div class="content">
-	    	<section id="waldo">
+    
+	<section id="waldo">
+		<div class="container">
+			<div class="content">
 	    		<h2>Waldo</h2>
 	    		<img src="img/waldo.jpg" alt="Image of Waldo" class="img-responsive">
 	    		<p>Details about Waldo</p>
 	    		<p>Try Waldo <a href="http://www.alexpmai.com/waldo" target="_blank">here</a></p>
-	    	</section>
+		   	</div>
+    		<!-- Close .content -->
+		</div>
+		<!-- Close .container -->
+	</section>
 
-	    	<section id="crudlist">
-	    		<h2>CrudList</h2>
-	    		<img src="img/crudlist.jpg" alt="Image of CrudList" class="img-responsive">
-	    		<p>Details about CrudList</p>
-	    		<p>Try CrudList <a href="http://www.alexpmai.com/crudlist" target="_blank">here</a></p>
-	    	</section>
+	<section id="crudlist" class="alternate-section">
+		<div class="container">
+			<div class="content">
+				<h2>CrudList</h2>
+				<img src="img/crudlist.jpg" alt="Image of CrudList" class="img-responsive">
+				<p>Details about CrudList</p>
+				<p>Try CrudList <a href="http://www.alexpmai.com/crudlist" target="_blank">here</a></p>
+			</div>
+		</div>
+	</section>
 
-	    	<section id="mapping">
-	    		<h2>Street Mapping Project - Java</h2>
-	    		<img src="img/mapping.png" alt="Image of mapping project" class="img-responsive">
-	    		<p>Details about Street Mapping Project</p>
-	    		<p>Take a look at the code <a href="https://github.com/Thealexmai/Street-Mapping-Project" target="_blank">here</a></p>
-	    	</section>
+	<section id="mapping">
+		<div class="container">
+			<div class="content">
+				<h2>Street Mapping Project - Java</h2>
+				<img src="img/mapping.png" alt="Image of mapping project" class="img-responsive">
+				<p>Details about Street Mapping Project</p>
+				<p>Take a look at the code <a href="https://github.com/Thealexmai/Street-Mapping-Project" target="_blank">here</a></p>
+			</div>
+		</div>
+	</section>
 
-	    </div>
-	    <!-- Close .content -->
-    </div>
-    <!-- Close .container -->
+
 
 
     <!-- Plugin http://jgallery.jakubkowalczyk.pl/customize-slider -->

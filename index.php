@@ -48,7 +48,7 @@
       </div>
     </section>
     <!-- Second Section -->
-    <section id="second">
+    <section id="second" class="alternate-section">
         <div class="container">
 
             <h1>Accomplishments</h1>

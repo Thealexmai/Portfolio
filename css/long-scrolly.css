@@ -16,3 +16,5 @@ section {
     text-align: center; /* typical for long scrolly pages */
 }
 
+ /* typical - alter the bg for every other section */
+.alternate-section {background-color: #eee; }
