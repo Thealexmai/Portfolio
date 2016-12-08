@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>Alex Mai - Portfolio</title>
-    <link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="css/jgallery.min.css" />
-	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="js/jgallery.min.js?v=1.6.0"></script>
-	<link rel="stylesheet" href="css/long-scrolly.css">
-    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jgallery.min.css" />
+	
+	<?php
+		$currentPage = "Portfolio";
+		include "inc/head.inc";
+	?>
+	
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="main-menu">
-
-      <span id="name-logo">Alex Mai</span>
-      <ul>
-          <li><a href="#first">Home</a></li>
-          <li><a href="#second">Accomplishments</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <?php
+    	include "inc/nav.inc";
+    ?>
 
     <div id="gallery">
     	<a href="#waldo"><img src="img/waldo.jpg" alt="Image of Waldo" class="img-responsive"></a>
@@ -76,26 +70,8 @@
 		        "mode":"slider"
 		    } );
 		} );
-</script>
+	</script>
 
-<script>
-// From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
-//          https://css-tricks.com/snippets/jquery/smooth-scrolling
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 250);
-        return false;
-      }
-    }
-  });
-});
-</script>
 
 </body>
 

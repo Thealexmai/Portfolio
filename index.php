@@ -1,31 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
-    <? php
-      include "head.inc"
+  <head>
+    <?php
+      $currentPage = "Home";
+      include "inc/head.inc";
     ?>
-    <title>Alex Mai - Home</title>
-    
-</head>
+  </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="main-menu">
-
-      <span id="name-logo">Alex Mai</span>
-      <ul>
-          <li><a href="#first">Home</a></li>
-          <li><a href="#second">Accomplishments</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <?php
+      include "inc/nav.inc";
+    ?>
 
     <!-- Top Section -->
     <section id="first">
-      <div class="container">
+      <div class="container push-down">
           <div id="introContent">
             <h1>Computer Science &amp; Business Student</h1>
             <p>Aspiring Project Manager</p>
