@@ -74,7 +74,7 @@
                   </div>
                   <div class="section2-column2">
                     <h2>Alpha Kappa Psi</h2>
-                    <p>In Alpha Kappa Psi, I have been in a few different positions. I have served as Parliamentarian, Master of Rituals, and Webmaster. During my time in these roles, I proactively reached out to the Student Association Government to update our bylaws and consitution before our renewal time was due. I created a rotational leadership program for new members to improve the onboarding process and membership retention rates. And I organized two all-day events for new member evaluation per semester.</p>
+                    <p>In Alpha Kappa Psi, I have been in a few different positions. I have served as the Parliamentarian and Master of Rituals. During my time in these roles, I proactively reached out to the Student Association Government to update our bylaws and consitution before our renewal time was due. I created a rotational leadership program for new members to improve the onboarding process and membership retention rates. And I organized two all-day events for new member evaluation per semester.</p>
                   </div>
                 </div>
 
