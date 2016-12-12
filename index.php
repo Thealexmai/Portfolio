@@ -119,6 +119,7 @@
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/menu-highlighter.js"></script>
 <script>
 // From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
 //          https://css-tricks.com/snippets/jquery/smooth-scrolling

@@ -53,6 +53,9 @@
 			<p>Or Go <a href="index.php">Back to the Home</a></p>
 		</div>
 	</div>
+
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/menu-highlighter.js"></script>
 </body>
 
 </html>

@@ -63,7 +63,7 @@
 
 
 
-
+	<script src="js/menu-highlighter.js"></script>
     <!-- Plugin http://jgallery.jakubkowalczyk.pl/customize-slider -->
 	<script type="text/javascript">
 		// Initialize slider

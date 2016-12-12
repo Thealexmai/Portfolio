@@ -158,4 +158,8 @@ aside {
 	padding-top: 75px;
 }
 
+.is-current {
+	background-color: #eee;
+	color: white;
+	}
 
