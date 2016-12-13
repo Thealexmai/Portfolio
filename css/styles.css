@@ -5,6 +5,14 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+h1, h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 article, aside {
 	display: table-cell;
 	padding-top: 0px;
@@ -12,11 +20,12 @@ article, aside {
 }
 
 article {
-	width: 90%;
+	width: 80%;
 }
 
 aside {
-	width: 10%;
+	width: 20%;
+	text-align: center;
 }
 /*	****************************************
 	Layout
@@ -28,7 +37,7 @@ aside {
 }
 
 #first {
-	background: linear-gradient(rgba(23, 22, 23, 0.3), rgba(23, 22, 23, 0.3)), url(../img/bg.jpg) no-repeat top center fixed;
+	background: linear-gradient(rgba(23, 22, 23, 0.3), rgba(23, 22, 23, 0.3)), url(../img/bg.JPG) no-repeat top center fixed;
 	color: white;
 	min-height: 60%;
 	padding-bottom: 0;

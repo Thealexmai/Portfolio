@@ -65,7 +65,9 @@
                     <h2>Waldo</h2>
                     <p>Waldo is a personal project that is also mobile-friendly. It is an app that takes information from the public and tells the number of open public study spots on the University of Rochester campus. This project was delivered in a week and is only a prototype. I am continually working on improving it. It is programmed using HTML, CSS, Bootstrap, AngularJS, Python, and SQLite.</p>
                   </div>
+                  <hr/>
                 </div>
+
 
                 <!-- Major accomplishment 2 -->
                 <div class="accomplishment-wrapper">
@@ -76,6 +78,7 @@
                     <h2>Alpha Kappa Psi</h2>
                     <p>In Alpha Kappa Psi, I have been in a few different positions. I have served as the Parliamentarian and Master of Rituals. During my time in these roles, I proactively reached out to the Student Association Government to update our bylaws and consitution before our renewal time was due. I created a rotational leadership program for new members to improve the onboarding process and membership retention rates. And I organized two all-day events for new member evaluation per semester.</p>
                   </div>
+                  <hr/>
                 </div>
 
                 <!-- Major accomplishment 3 -->
@@ -87,6 +90,7 @@
                     <h2>IT Project Manager Intern</h2>
                     <p>During summer of 2016, I interned at Exelon Corporation under their Business Services Company. While I was a Project Manager Intern, I took on many projects that were related to the operations of the team. I managed a Microsoft SharePoint restructure and upgrade project which decreased capacity storage by 63 percent and lowered cost to the firm. I conducted user acceptance testing of applications on mobile platforms, ensuring on-time deployment. And I assisted project managers with long-range project planning to ensure money is available for future projects.</p>
                   </div>
+                  <hr/>
                 </div>
 
                 <!-- Major Accomplishment 4 -->
@@ -98,14 +102,15 @@
                     <h2>Workshop Leader</h2>
                     <p>I am currently a workshop leader for the computer science department at the University of Rochester. I lead workshops in introductory Java and object oriented programming courses. Some of my responsibilities include the following. I lead 12 students in a workshop to improve Java programming abilities and theory by guiding group discussion. I evaluate and provide feedback and improvements to the professor and to students regarding the course. And I participate in a workshop leader course to improve on leadership and teamwork skills.</p>
                   </div>
+                  <hr/>
                 </div>
               </article>
 
               <aside>
                 <h3>Follow Me</h3>
-                <p>LinkedIn</p>
-                <p>Github</p>
-                <p>Portfolio Page</p>
+                	<p><a href="https://www.linkedin.com/in/thealexmai"><img src="img/linkedin.png" alt="Icon image of LinkedIn" class="img-responsive"></a></p>
+                	<p><a href="https://github.com/Thealexmai"><img src="img/github.png" alt="Icon of Github" class="img-responsive"></a></p>
+	                <p><a href="portfolio.php"><img src="img/portfolio.png" alt="Icon of portfolio" class="img-responsive"></a></p>
 
               </aside>
                 
